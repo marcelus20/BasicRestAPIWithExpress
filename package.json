@@ -1,0 +1,30 @@
+{
+  "name": "basicrestapiwithexpress",
+  "version": "1.0.0",
+  "description": "A quick way to kick start your rest API using the node js express Framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test" : "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelus20/BasicRestAPIWithExpress.git"
+  },
+  "author": "Felipe Mantovani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelus20/BasicRestAPIWithExpress/issues"
+  },
+  "homepage": "https://github.com/marcelus20/BasicRestAPIWithExpress#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-autosanitizer": "^1.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
